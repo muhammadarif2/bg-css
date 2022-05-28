@@ -1,0 +1,375 @@
+body {
+    background: linear-gradient(45deg, #0ab6d2 , #1497ac) !important;
+}
+.event-landing.cms-page-view .main-container {
+    max-width: 1200px;
+}
+.event-landing.cms-page-view .main-container {
+    max-width: 1200px;
+    padding-top: 34vw;
+    background: url(https://raw.githubusercontent.com/Wahab-01/SG-page/main/sg-hd-min-1.png) no-repeat 30% 10px !important;
+    background-size: 70% auto !important;
+}
+
+.event-landing.cms-page-view .std h1,
+.event-landing.cms-page-view .std h2:not(.product-name) {
+    color: #fff;
+    font-weight: bold;
+    font-size: 10vw;
+    text-align: center;
+    margin-bottom: 0;
+    text-shadow: 0 0 10px rgba(0,0,0,0.25);
+    white-space: nowrap;
+}
+.event-landing.cms-page-view .std h2:not(.product-name) {
+    font-size: 4.1vw;
+    font-weight: normal;
+}
+.deal-products-list-widget {
+    margin: 3vw 0;
+}
+.deals-widget-title {
+    font-family: "fortuna_dotregular", sans-serif;
+    font-weight: normal !important;
+    text-align: left !important;
+    font-weight: bold !important;
+}
+.deal-products-list-widget .products-grid {
+    justify-content: space-between;
+}
+.deal-products-list-widget .products-grid::after {
+    content: initial;
+}
+.deal-products-list-widget .item {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background: #fff;
+    margin-top: 2%;
+    text-align: center;
+    width: 48%;
+    position: relative;
+}
+.deal-products-list-widget .products-grid .actions {
+    margin: auto 0 0;
+    z-index: 1;
+}
+.deal-products-list-widget .products-grid .price-box {
+    margin: auto 0 10px;
+    min-height: 0 !important;
+}
+.deal-products-list-widget .owl-item .item {
+    height: 100%;
+    margin-top: 0;
+    width: auto;
+}
+.deal-products-list-widget .item .promo-image {
+    z-index: 2;
+}
+.deal-products-list-widget .owl-item {
+    background: #fff;
+}
+.deal-products-list-widget .products-grid .owl-stage {
+    display: flex;
+}
+.cms-page-widget .owl-carousel .owl-nav button {
+    right: -15px;
+    margin-top: -20px;
+    opacity: 1;
+    color: #666;
+}
+.cms-page-widget .owl-carousel .owl-nav button.disabled {
+    opacity: 0.2;
+}
+.cms-page-widget .owl-carousel .owl-nav button.owl-next {
+    left: -15px;
+    right: auto;
+}
+.cms-page-widget .owl-carousel .owl-nav button span {
+    width: 34px;
+    background: rgba(255,255,255,0.5);
+}
+.deal-products-list-widget .products-grid .product-name {
+    line-height: 1.1;
+    margin: 10px 0;
+    min-height: 0 !important;
+}
+.mega-deals  {
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.mega-deals a {
+    display: block;
+    width: 48%;
+    margin: 2% 0;
+}
+.mega-deals .owl-item a {
+    width: 100%;
+    margin: 0;
+}
+.serif {
+    font-familiy: serif !important;
+}
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgba(255,255,255,0.4);
+    padding: 10px;
+}
+@media screen and (min-width: 480px) {
+    .cms-page-widget .owl-carousel .owl-nav button {
+        right: -25px;
+    }
+    .cms-page-widget .owl-carousel .owl-nav button.owl-next {
+        left: -25px;
+    }
+    .deal-products-list-widget .item {
+        width: 32%;
+    }
+}
+@media screen and (min-width: 580px) {
+    .mega-deals a {
+        width: 31%;
+    }
+    .owl-item .mega-deals .owl-item a {
+        width: 100%;
+        margin: 0;
+    }
+}
+@media screen and (min-width: 771px) {
+    body {
+        background: linear-gradient(45deg, #0ab6d2 , #1497ac) url(../images/bazaar20.jpg) !important;
+    }
+    .event-landing.cms-page-view .main-container {
+        padding-top: 300px;
+    }
+    .cms-page-widget .owl-carousel .owl-nav button {
+        right: -45px;
+    }
+    .cms-page-widget .owl-carousel .owl-nav button.owl-next {
+        left: -45px;
+    }
+    .deal-products-list-widget .item {
+        width: 23%;
+    }
+}
+@media screen and (min-width: 980px) {
+    .deal-products-list-widget .item {
+        width: 18%;
+    }
+}
+@media screen and (min-width: 1024px) {
+    body {
+        background-size: 2000px auto !important;
+    }
+
+    .event-landing.cms-page-view .main-container {
+        padding-top: 400px;
+    }
+    .event-landing.cms-page-view .std h1,
+    .event-landing.cms-page-view .std h2:not(.product-name) {
+        font-size: 7vw;
+    }
+    .event-landing.cms-page-view .std h2:not(.product-name) {
+        font-size: 2.95vw;
+
+    }
+    .deal-products-list-widget .owl-carousel .owl-item .item {
+        border: none !important;
+        padding: 15px;
+    }
+}
+@media screen and (min-width: 1424px) {
+    body {
+        background-size: 2401px auto !important;
+    }
+    .event-landing.cms-page-view .main-container {
+        padding-top: 500px;
+    }
+    .event-landing.cms-page-view .std h1,
+    .event-landing.cms-page-view .std h2:not(.product-name) {
+        font-size: 5.5vw;
+    }
+    .event-landing.cms-page-view .std h2:not(.product-name) {
+        font-size: 2.15vw;
+
+    }
+}
+@media screen and (min-width: 2024px) {
+    .event-landing.cms-page-view .std h1,
+    .event-landing.cms-page-view .std h2:not(.product-name) {
+        font-size: 5.5vw;
+    }
+    .event-landing.cms-page-view .std h2:not(.product-name) {
+        font-size: 2.15vw;
+
+    }
+}
+
+/*** Social Media   ****/
+@font-face {
+    font-family: 'icomoon';
+    src:  url('fonts/social/icomoon.eot?k285q5');
+    src:  url('fonts/social/icomoon.eot?k285q5#iefix') format('embedded-opentype'),
+    url('fonts/social/icomoon.ttf?k285q5') format('truetype'),
+    url('fonts/social/icomoon.woff?k285q5') format('woff'),
+    url('fonts/social/icomoon.svg?k285q5#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: 'fortuna_dotregular';
+    src: url('fonts/bazaar/fortd___-webfont.woff2') format('woff2'),
+    url('fonts/bazaar/fortd___-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.social-media-widget a:before {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.social-media-widget .facebook:before {
+    content: "\ea90";
+}
+.social-media-widget .instagram:before {
+    content: "\ea92";
+}
+.social-media-widget .whatsapp:before {
+    content: "\ea93";
+}
+.social-media-widget .twitter:before {
+    content: "\ea96";
+}
+.social-media-widget .youtube:before {
+    content: "\ea9d";
+}
+.social-media-widget {
+    display: flex;
+}
+.social-media-widget a {
+    background: #fff;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 23px;
+    display: block;
+    margin: 10px 10px 10px 0;
+    width: 40px;
+    height: 40px;
+    line-height: 43px;
+    color: inherit;
+}
+
+/*****   countdown   *****/
+
+.countdown {
+    margin: 50px auto;
+    color: #fff;
+}
+.countdown-wrapper {
+    display: flex;
+    justify-content: center;
+}
+.countdown h3 {
+    font-size: 3vw;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+}
+.countdown-wrapper > div {
+    width: 25%;
+    max-width: 150px;
+    padding: 1%;
+    border-radius: 10px;
+    background: #fff;
+    margin: 2%;
+    text-align: center;
+    position: relative;
+    box-shadow: 1px 1px 1px white,
+    1px 2px 1px white,
+    1px 3px 1px gray,
+    1px 4px 1px white,
+    1px 5px 1px white,
+    1px 6px 1px gray,
+    1px 7px 1px white,
+    1px 8px 1px gray,
+    1px 9px 1px white,
+
+    1px 25px 15px rgba(0,0,0,.3);
+}
+.countdown-wrapper .counter-number {
+    font-size: calc(24px + 3vw);
+    color: #dd2563;
+    font-weight: bold;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.countdown-wrapper .counter-label {
+    font-size: 15px;
+    text-transform: uppercase;
+    margin: 0;
+    display: block;
+    position: absolute;
+    bottom: -50px;
+    width: 100%;
+    left: 0;
+    color: #fff;
+}
+.countdown-wrapper > div::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: calc(2px + 100%);
+    height: 30px;
+    margin-top: -14px;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0),  rgba(0,0,0,0.5) 50%,  rgba(0,0,0,0));
+}
+.shorten {
+    margin: 100px auto;
+    background: rgba(255,255,255,0.7);
+    padding: 20px 30px;
+    max-height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+.shorten.opened {
+    max-height: none;
+}
+.cms-page-view .std .shorten h2,
+.cms-page-view .std .shorten h3 {
+    color: #222 !important;
+    white-space: normal !important;
+    margin: 1em 0 2em;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+
+}
+.shorten .read-more {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 20px 0 10px;
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0),   rgba(255,255,255,1));
+    text-shadow: 1px 1px 1px #fff;
+}
